@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<extension type = "module" version = "3.1.0" client = "site" method="upgrade">
+
+   <name>BB Privacy Policy Banner</name>
+   <author>BB Privacy Policy Banner</author>
+   <version>12.02.2019</version>
+   <description>
+	&#x3C;h2&#x3E;&#x3C;strong&#x3E;A BB Privacy Policy Banner! For joomla Website By &#x3C;a title=&#x22;www.boxs.me&#x22; href=&#x22;http://www.boxs.me&#x22; target=&#x22;_blank&#x22; rel=&#x22;noopener noreferrer&#x22;&#x3E;Boxs.Me&#x3C;/a&#x3E;&#x3C;/strong&#x3E;&#x3C;br /&#x3E;&#x3C;strong&#x3E;privacy policy generator Link&#xA0;&#xA0;&#x3C;a title=&#x22;Privacy policy generator&#x22; href=&#x22;https://privacyterms.io/privacy-policy-generator/&#x22; target=&#x22;_blank&#x22; rel=&#x22;noopener noreferrer&#x22;&#x3E;privacyterms.io&#xA0;&#x3C;/a&#x3E;&#x3C;/strong&#x3E;&#x3C;br /&#x3E;&#x3C;strong&#x3E;teamplas&#x3C;a id=&#x22;editable-title-span&#x22; class=&#x22;ItemTitle_titleLink-dPGjg&#x22; title=&#x22;cookie compliance&#x22; href=&#x22;https://codepen.io/rotor/pen/pVQmJp&#x22; target=&#x22;_blank&#x22; rel=&#x22;noopener noreferrer&#x22;&#x3E;&#xA0;cookie compliance&#x3C;/a&#x3E;&#xA0;By&#xA0;&#x3C;a class=&#x22;ItemTitle_ownerLink-L8qgY&#x22; href=&#x22;https://codepen.io/rotor&#x22; target=&#x22;_blank&#x22; rel=&#x22;noopener noreferrer&#x22;&#x3E;EvgenyY&#x3C;/a&#x3E;&#x3C;/strong&#x3E;&#x3C;/h2&#x3E; 
+
+	</description>
+	<author>Joomla! Project</author>
+	<creationDate>Nov 2020</creationDate>
+	<copyright>Copyright (C) 2020 - 2022 Open Source Matters. All rights reserved.</copyright>
+	<license> License  By Boxs.me</license>
+	<authorEmail>boxsanook1@gmail.com</authorEmail>
+	<authorUrl>www.boxs.me</authorUrl>
+ 
+   <files>
+		<filename>mod_bb_module_cookies.xml</filename>
+		<filename module = "mod_bb_module_cookies">mod_bb_module_cookies.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>mod_bb_module_cookies.png</filename>
+		<folder>css</folder>
+		<filename>css/style.css</filename>
+		<filename>css/index.html</filename> 
+		<folder>js</folder>
+		<folder>tmpl</folder>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+   </files>
+	
+   <config>
+   <fields name="params">
+   
+			<fieldset name="basic" label="Module">  
+				<field name="Privacy_Title" type="text" label="Privacy Title:" description="Privacy Title" default="This website uses cookies." />
+				<field name="Privacy_Description" type="editor" label="Privacy Description :" description="Privacy Description" 
+				default="We uses cookies for personalise content, to provide social media features, and to analyse our traffic.&#x3C;br /&#x3E; Read about how we use cookies in &#x3C;a href=&#x22;https://www.clari.com/privacy&#x22;&#x3E;Privacy Policies&#x3C;/a&#x3E; and &#x3C;a href=&#x22;https://www.clari.com/gdpr&#x22;&#x3E;GDPR Agreement&#x3C;/a&#x3E;.&#x3C;br /&#x3E;If you continue to use this site, you consent to our use of cookies." />  
+
+				<field name="Preferences" type="radio" default="0" label="Show an Preferences" description="" class="btn-group btn-group-yesno">
+				  <option value="1">JYES</option>
+				  <option value="0">JNO</option>
+				</field>
+
+				<field name="Statistics" type="radio" default="0" label="Show an Statistics" description="" class="btn-group btn-group-yesno">
+				  <option value="1">JYES</option>
+				  <option value="0">JNO</option>
+				</field>
+				<field name="Marketing" type="radio" default="0" label="Show an Marketing" description="" class="btn-group btn-group-yesno">
+				  <option value="1">JYES</option>
+				  <option value="0">JNO</option>
+				</field> 
+			</fieldset>
+			
+			  
+		</fields>
+	</config>
+	
+</extension>
