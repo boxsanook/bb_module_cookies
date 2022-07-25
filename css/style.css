@@ -1,6 +1,4 @@
-body {
-  background: #f0f0f0;
-}
+ 
 
 .js-show-cookie-banner .cookie-compliance {
   transform: translateY(0);
@@ -20,7 +18,7 @@ body {
   position: relative;
   max-width: 960px;
   margin: 0 auto;
-  padding: 24px 16px 24px 48px;
+  padding: 24px 16px 0 48px;
 }
 .cookie-compliance__title {
   font-family: "Gotham";
@@ -108,7 +106,7 @@ body {
   background-size: 15px auto;
 }
 .cookie-compliance__submit {
-  min-width: 140px;
+  min-width: 100px;
   border-radius: 2px;
   background: #1E9ED1;
   color: #fff;
@@ -129,6 +127,53 @@ body {
 .cookie-compliance__submit:hover {
   background: #0E78A6;
 }
+
+.cookie-compliance__Not_submit {
+  min-width: 100px;
+  border-radius: 2px;
+  background: #721d04;
+  color: #fff;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  font-family: "Whitney";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  padding: 10px; 
+}
+.cookie-compliance__Not_submit:focus {
+  outline: none;
+  box-shadow: none;
+}
+.cookie-compliance__Not_submit:hover {
+  background: #ff3604;
+}
+
+.cookie-Read_more {
+  min-width: 100px;
+  border-radius: 2px;
+  background: #026818;
+  color: #fff;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  font-family: "Whitney";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  padding: 10px; 
+}
+.cookie-Read_more:focus {
+  outline: none;
+  box-shadow: none;
+}
+.cookie-Read_more:hover {
+  background: #068d1c;
+  color: #fff;
+}
+
+
 .cookie-compliance__close {
   position: absolute;
   top: 24px;

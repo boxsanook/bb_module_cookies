@@ -14,7 +14,7 @@
  */
 $stylelink = '';
 $stylelink .= '<link rel="stylesheet" href="modules/mod_bb_module_cookies/css/style.css" rel="stylesheet" />' . "\n";
-$stylelink .= '<link rel="stylesheet" href="modules/mod_bb_module_cookies/css/normalize.min.css" rel="stylesheet" />' . "\n";
+$stylelink .= '<link rel="stylesheet" href="modules/mod_bb_module_cookies/css/normalize.min.css.map" rel="stylesheet" />' . "\n";
 $stylelink .= '<script  src="modules/mod_bb_module_cookies/js/script.js" rel="stylesheet" /></script>' . "\n"; 
 defined('_JEXEC') or die('Restricted Access');
 
